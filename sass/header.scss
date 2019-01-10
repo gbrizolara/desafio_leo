@@ -1,0 +1,47 @@
+.bg-search {
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-position: 95%;
+  background-color: #DDD;
+  border-radius: 50px;
+  border: 1px solid #CCC;
+  background-size: 15px;
+  font-size: 12px;
+  padding: 10px 110px 10px 20px;
+
+
+}
+
+.user-name {
+  font-size: 22px;
+  margin: 0;
+
+}
+
+
+.user-img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+display: block;
+border: 2px solid #DDD;
+float: left;
+margin-right: 20px;
+
+}
+
+.logo-topo {
+padding-top: 5px;
+}
+
+
+.separador {
+    border-right: 1px solid #CCC;
+
+}
+
+.p-vertical {
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
