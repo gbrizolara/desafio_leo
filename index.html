@@ -5,7 +5,10 @@
     <title>LEO Learning</title>
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
 <body>
   <header>
     <div class="container">
@@ -15,8 +18,7 @@
         </div>
         <div class="col-md-3 separador p-vertical">
           <form class="buscador">
-            <input class="bg-search" type="search" placeholder="Pesquisar cursos...">
-
+              <input class="bg-search" type="search" placeholder="Pesquisar cursos...">
           </form>
         </div>
         <div class="col-md-3 p-vertical">
@@ -25,6 +27,81 @@
           <div class="user-name"> Ana Paula</div>
         </div>
       </div>
-    </header>
+    </div>
+    <main>
+      <section class="slider">
+        <div id="owl-demo" class="owl-carousel">
+          <div class="item"><img src="images/slide08.png" alt="Slide01"></div>
+          <div class="item"><img src="images/slide08.png" alt="Slide01"></div>
+          <div class="item"><img src="images/slide08.png" alt="Slide01"></div>
+        </div>
+      </section>
+      <script>
+      $(document).ready(function() {
+
+  $("#owl-demo").owlCarousel({
+
+      navigation : false, // Tira a navegacao
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+
+  });
+
+});
+
+</script>
+  <h4 class="titulo-principal">MEUS CURSOS</h4>
+  <hr></hr>
+  <div class="row">
+    <div class="col-md-3">
+      <img class="img-cursos" width="300px" src="images/menina-estudando.png">
+      <p class="titulo-curso">ENGENHARIA CIVIL</p>
+      <p>Todos nossos cursos são reconhecidos pelo MEC. Venha fazer parte do melhor ensino EAD do Brasil.</p>
+      <input class="ver-mais" type="button" value="ver-curso">
+    </div>
+    <div class="col-md-3">
+      <img class="img-cursos" width="300px" src="images/menina-estudando.png">
+      <p class="titulo-curso">EDUCAÇÃO FÍSICA</p>
+      <p>Todos nossos cursos são reconhecidos pelo MEC. Venha fazer parte do melhor ensino EAD do Brasil.</p>
+      <input class="ver-mais" type="button" value="ver-curso">
+    </div>
+    <div class="col-md-3">
+      <img class="img-cursos" width="300px" src="images/menina-estudando.png">
+      <p class="titulo-curso">MARKETING DIGITAL</p>
+      <p>Todos nossos cursos são reconhecidos pelo MEC. Venha fazer parte do melhor ensino EAD do Brasil.</p>
+      <input class="ver-mais" type="button" value="ver-curso">
+    </div>
+    <div class="col-md-3">
+      <img class="img-cursos" width="300px" src="images/menina-estudando.png">
+      <p class="titulo-curso">COMÉRCIO EXTERIOR</p>
+      <p>Todos nossos cursos são reconhecidos pelo MEC. Venha fazer parte do melhor ensino EAD do Brasil.</p>
+      <input class="ver-mais" type="button" value="ver-curso">
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img class="img-cursos" width="300px" src="images/menina-estudando.png">
+        <p class="titulo-curso">DESIGN DE MODA</p>
+        <p>Todos nossos cursos são reconhecidos pelo MEC. Venha fazer parte do melhor ensino EAD do Brasil.</p>
+        <input class="ver-mais" type="button" value="ver-curso">
+      </div>
+      <div class="col-md-3">
+        <img class="img-cursos" width="300px" src="images/menina-estudando.png">
+        <p class="titulo-curso">GESTÃO AMBIENTAL</p>
+        <p>Todos nossos cursos são reconhecidos pelo MEC. Venha fazer parte do melhor ensino EAD do Brasil.</p>
+        <input class="ver-mais" type="button" value="ver-curso">
+      </div>
+      <div class="col-md-3">
+        <img class="img-cursos" width="300px" src="images/menina-estudando.png">
+        <p class="titulo-curso">PROCESSOS GERENCIAIS</p>
+        <p>Todos nossos cursos são reconhecidos pelo MEC. Venha fazer parte do melhor ensino EAD do Brasil.</p>
+        <input class="ver-mais" type="button" value="ver-curso">
+      </div>
+      <div class="col-md-3">
+        <img class="img-cursos" width="150px" src="images/coursing.png">
+        <p class="titulo-curso">VER MAIS</p>
+      </div>
+</main>
+</header>
 </body>
 </html>

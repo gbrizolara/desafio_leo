@@ -12,6 +12,10 @@
 
 }
 
+header {
+  background: #F2F2F2;
+}
+
 .user-name {
   font-size: 22px;
   margin: 0;
@@ -44,4 +48,42 @@ padding-top: 5px;
 padding-top: 15px;
 padding-bottom: 15px;
 
+}
+
+.titulo-curso {
+  font-size: 15px;
+  font-weight: bold;
+ }
+
+.titulo-principal {
+  padding-top: 2%;
+}
+
+.ver-mais {
+background-color: #088A08;
+padding: 20px 200px 10px 20px;
+border-radius: 50px;
+text-transform: uppercase;
+
+}
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.slider .owl-theme .owl-controls {
+  margin-top: -11px;
+  z-index: 100;
+  position: relative;
+}
+
+.controls {
+  width: auto;
+  position: absolute;
+  right: 20px;
+  top:50%;
+  transform: translateY(-50%);
 }
