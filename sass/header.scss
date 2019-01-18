@@ -13,10 +13,10 @@
 }
 
 
-header {
+.header {
 background:#FFFFFF;}
 
-  body {
+.body {
   background-color: #E6E6E6;
 }
 
@@ -64,17 +64,22 @@ border-radius: 5px;
 box-shadow: 0 10px 30px rgba(0,0,0,.1);
 max-width: 350px;
 margin:  auto;
-box-shadow: 0 2px 10px rgba(0,0,0,.1);
+
 }
 
 .img-curso {
-width: 50px;
+width: 60px;
 
 }
 
-.img-adicionar-curso{
-  Border: 20px dashed cor;
+.borda-img {
+  border: 3px dotted #999; /*Definindo o estilo da borda*/
+  background-color: #ebebeb; /*Cor de fundo para melhor visualização do exemplo*/
+  height: 325px; /*Altura para melhor visualização do exemplo*/
+  width: 260x; /*Largura para melhor visualização do exemplo*/
+  transform:translate(0%, 3%);
 }
+
 
 
 .titulo-curso {
@@ -85,7 +90,10 @@ width: 50px;
 
 .titulo-principal {
   padding-top: 2%;
+  transform: translate(16%, -5%)
 }
+
+
 
 .btn-curso {
 background: #31B404;
@@ -113,4 +121,38 @@ text-transform: uppercase;
   margin-top: -11px;
   z-index: 100;
   position: relative;
+}
+
+.leo_logo_rodape {
+  width: 120px;
+  padding: 20px;
+  transform: translate(200%, 40%)
+}
+
+.direitos {
+transform: translate(33%, 70%)
+}
+
+.rodape-02{
+transform: translate(10%, 60%)
+
+}
+
+.rodape-03 {
+transform: translate(-10%, 60%)
+}
+
+.twitter  {
+width: 40px;
+transform:translate(50%, -5%);
+}
+
+.youtube {
+width: 40px;
+  transform:translate(80%, -5%);
+}
+
+.pinterest {
+width: 40px;
+transform:translate(110%, -5%);
 }
