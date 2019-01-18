@@ -14,10 +14,11 @@
 
 
 .header {
-background:#FFFFFF;}
+background:#E6E6E6;
+}
 
 .body {
-  background-color: #E6E6E6;
+  background: #E6E6E6;
 }
 
 .user-name {
@@ -130,7 +131,7 @@ text-transform: uppercase;
 }
 
 .direitos {
-transform: translate(33%, 70%)
+transform: translate(32%, 70%)
 }
 
 .rodape-02{
@@ -155,4 +156,28 @@ width: 40px;
 .pinterest {
 width: 40px;
 transform:translate(110%, -5%);
+
 }
+
+
+.col-md-12 {
+  background-color: #BDBDBD;
+
+
+}
+
+.rodape {
+  transform:translate(16%, 8%);
+}
+
+.down {
+  height: 160px;
+}
+
+
+  div.retangulo {
+ line-height:0;
+ width:200px;
+ height:160px;
+ 
+ }
